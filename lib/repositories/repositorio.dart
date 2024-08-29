@@ -23,7 +23,6 @@ class Repositorio{
 
   static Future<File> _obterArquivo() async {
     final Directory? downloadsDir = await getDownloadsDirectory();
-    print(downloadsDir);
     return File("${downloadsDir?.path}/tarefas.json");
   }
 }
