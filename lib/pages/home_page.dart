@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
                         ScaffoldMessenger.of(context).showSnackBar(snack);
                       }
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.add,
                     ))
               ],
